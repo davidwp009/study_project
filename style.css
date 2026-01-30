@@ -45,7 +45,7 @@ nav a {
 .btn-primary {
     background-color: #5c4fff;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
@@ -74,13 +74,14 @@ nav a {
 
 h1 {
     font-size: 2.5rem;
-    margin: 10px 0;
+    margin: 25px 0;
 }
 
 .description {
     font-size: 1rem;
     margin-bottom: 20px;
     color: #4b5563;
+    line-height: 25px;
 }
 
 .hero-image img {
@@ -88,4 +89,8 @@ h1 {
     height: 400px;
     object-fit: cover;
     border-radius: 50%;
+
 }
+
+
+/* FOTTER */
