@@ -1,6 +1,6 @@
 /* =========================
    CSS RESET
-   ========================= */
+   ========================= *
 
 * {
   padding: 0;
@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 
-/* Remove outlines on focus/active */
+/* Remove outlines on focus/active *
 :focus,
 :active {
   outline: none;
@@ -27,7 +27,7 @@ a:active {
   outline: none;
 }
 
-/* HTML5 semantic elements */
+/* HTML5 semantic elements *
 nav,
 footer,
 header,
@@ -35,11 +35,11 @@ aside {
   display: block;
 }
 
-/* Base html/body */
+/* Base html/body *
 html,
 body {
   height: 100%;
-  width: 100%;
+  width: 1600px;
   font-size: 100%;
   line-height: 1;
 
@@ -48,7 +48,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-/* Form elements */
+/* Form elements *
 input,
 button,
 textarea {
@@ -68,7 +68,7 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-/* Links */
+/* Links *
 a,
 a:visited {
   text-decoration: none;
@@ -78,17 +78,16 @@ a:hover {
   text-decoration: none;
 }
 
-/* Lists */
+/* Lists *
 ul li {
   list-style: none;
 }
 
-/* Images */
+/* Images *
 img {
   vertical-align: top;
 }
-
-/* Headings */
+/* Headings *
 h1,
 h2,
 h3,
@@ -99,8 +98,81 @@ h6 {
   font-weight: inherit;
 }
 
-/* Text */
+/* Text *
 p,
 span {
   color: inherit;
 }
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+}/*
+/* reset.css */
+
+/* Прибираємо відступи та поля */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HTML5 елементи */
+article, aside, details, figcaption, figure,
+footer, header, main, menu, nav, section {
+  display: block;
+}
+
+/* Базові налаштування */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Шрифти */
+body {
+  line-height: 1;
+}
+
+/* Списки */
+ol, ul {
+  list-style: none;
+}
+
+/* Цитати */
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+}
+
+/* Таблиці */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Посилання */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Зображення */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Кнопки та інпути */
+button, input, textarea, select {
+  font: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
